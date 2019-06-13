@@ -1,5 +1,8 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Space Station 13!</h1>
+<h1>Suus</h1>
 
+<h2>Welcome to Suus Station 13!</h2>
+<p>Enjoy your stay, fuckers.</p>
+<br><br>
 <i>This server is running a /tg/station 13 Git build.</i>
