@@ -30,11 +30,12 @@ endmap
 map donutstation
 endmap
 
+map kilostation
+	minplayers 25
+endmap
+
 map runtimestation
 endmap
 
 map multiz_debug
-endmap
-
-map ministation
 endmap
