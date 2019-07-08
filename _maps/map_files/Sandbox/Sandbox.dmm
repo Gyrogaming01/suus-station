@@ -10,38 +10,16 @@
 /turf/open/floor/wood,
 /area/bridge)
 "aad" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_x = 6;
-	pixel_y = -24
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 1;
+	pixel_y = 5
 	},
-/obj/machinery/button{
-	id = shutters;
-	name = "privacy shutters button";
-	pixel_x = -8;
-	pixel_y = -25
-	},
-/turf/open/floor/carpet,
+/turf/open/floor/wood,
 /area/bridge)
 "aae" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window/northleft{
-	dir = 2;
-	name = "Reception Window"
-	},
-/obj/machinery/door/window/brigdoor{
-	base_state = "rightsecure";
-	dir = 1;
-	icon_state = "rightsecure";
-	name = "Head of Personnel's Desk";
-	req_access_txt = "57"
-	},
-/obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor/preopen{
-	id = shutters;
-	name = "privacy shutters"
-	},
-/turf/open/floor/plasteel,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
 /area/bridge)
 "aaf" = (
 /obj/effect/landmark/start/assistant,
@@ -56,12 +34,92 @@
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plasteel,
 /area/space)
-"aHG" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green{
-	pixel_x = 1;
-	pixel_y = 5
+"aai" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_x = 6;
+	pixel_y = -24
 	},
+/turf/open/floor/carpet,
+/area/bridge)
+"aaj" = (
+/obj/machinery/door/poddoor/preopen{
+	id = shutters;
+	name = "privacy shutters"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/brigdoor{
+	base_state = "rightsecure";
+	dir = 1;
+	icon_state = "rightsecure";
+	name = "Head of Personnel's Desk";
+	req_access_txt = "57"
+	},
+/obj/machinery/door/window/northleft{
+	dir = 2;
+	name = "Reception Window"
+	},
+/obj/structure/table/reinforced,
+/turf/open/floor/plasteel,
+/area/bridge)
+"aak" = (
+/obj/docking_port/stationary{
+	dir = 4;
+	dwidth = 4;
+	height = 15;
+	id = "emergency_home";
+	width = 20
+	},
+/turf/open/space/basic,
+/area/space)
+"aal" = (
+/obj/machinery/computer/shuttle/mining{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"aam" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 5;
+	height = 7;
+	id = "supply_home";
+	name = "Cargo Bay";
+	width = 12
+	},
+/turf/open/space/basic,
+/area/space)
+"aan" = (
+/obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 3;
+	height = 5;
+	id = "mining_home";
+	name = "mining shuttle bay";
+	roundstart_template = /datum/map_template/shuttle/mining/delta;
+	width = 7
+	},
+/turf/open/space/basic,
+/area/space)
+"aao" = (
+/obj/machinery/computer/cargo{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"aap" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 3;
+	height = 13;
+	id = "arrivals_stationary";
+	name = "arrivals";
+	roundstart_template = /datum/map_template/shuttle/arrival/pubby;
+	width = 6
+	},
+/turf/open/space/basic,
+/area/space)
+"aHG" = (
 /turf/open/floor/wood,
 /area/bridge)
 "aJI" = (
@@ -72,7 +130,9 @@
 /turf/closed/wall,
 /area/space)
 "bhd" = (
-/obj/structure/table/wood,
+/obj/machinery/computer/card{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/bridge)
 "bhN" = (
@@ -88,10 +148,13 @@
 /turf/open/floor/carpet,
 /area/bridge)
 "bjg" = (
-/obj/machinery/computer/card{
-	dir = 4
+/obj/machinery/button{
+	id = shutters;
+	name = "privacy shutters button";
+	pixel_x = -8;
+	pixel_y = -25
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet,
 /area/bridge)
 "cpT" = (
 /turf/open/floor/plasteel,
@@ -25931,7 +25994,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aam
 aaa
 aaa
 aaa
@@ -26178,22 +26241,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+bgn
+bgn
+bgn
+bgn
+bgn
+bgn
+bgn
+aah
+bgn
+aah
+bgn
+bgn
+bgn
+bgn
+bgn
 aaa
 aaa
 aaa
@@ -26435,22 +26498,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+aao
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -26692,22 +26755,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -26949,22 +27012,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -27206,22 +27269,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -27463,22 +27526,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -27720,22 +27783,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -27977,22 +28040,22 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
+bgn
+bgn
+bgn
+bgn
+bgn
 aaa
 aaa
 aaa
@@ -28234,17 +28297,17 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -28491,17 +28554,17 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -28748,17 +28811,17 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -29005,18 +29068,18 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+aah
+aan
 aaa
 aaa
 aaa
@@ -29262,17 +29325,17 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -29519,17 +29582,17 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+aal
+bgn
 aaa
 aaa
 aaa
@@ -29776,17 +29839,17 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -30030,20 +30093,20 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+aab
+aab
+aab
+aab
+aab
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+bgn
 aaa
 aaa
 aaa
@@ -30288,18 +30351,18 @@ aaa
 aaa
 aaa
 aab
+aad
+aae
+bhd
 aab
-aab
-aab
-aab
-bgn
-bgn
-bgn
-bgn
-bgn
-bgn
-bgn
-bgn
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
+cpT
 bgn
 aaa
 aaa
@@ -30546,9 +30609,9 @@ aaa
 aaa
 aab
 aHG
-bhd
-bjg
-aab
+bhN
+bhN
+aaj
 cpT
 cpT
 cpT
@@ -30804,8 +30867,8 @@ aaa
 aab
 bih
 bhN
-bhN
-aae
+bjg
+aab
 cpT
 cpT
 cpT
@@ -31061,7 +31124,7 @@ aaa
 aab
 aJI
 bjd
-aad
+aai
 aab
 cpT
 cpT
@@ -31328,7 +31391,7 @@ cpT
 cpT
 cpT
 cpT
-bgn
+aah
 aaa
 aaa
 aaa
@@ -32870,7 +32933,7 @@ cpT
 cpT
 cpT
 cpT
-bgn
+aah
 aaa
 aaa
 aaa
@@ -33387,7 +33450,7 @@ cpT
 bgn
 aaa
 aaa
-aaa
+aap
 aaa
 aaa
 aaa
@@ -35692,7 +35755,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+aak
 aaa
 aaa
 aaa
