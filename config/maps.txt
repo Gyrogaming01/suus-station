@@ -30,10 +30,6 @@ endmap
 map donutstation
 endmap
 
-map kilostation
-	minplayers 25
-endmap
-
 map snadbox
 endmap
 
