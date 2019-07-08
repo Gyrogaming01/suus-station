@@ -44,7 +44,7 @@
 /area/bridge)
 "aaj" = (
 /obj/machinery/door/poddoor/preopen{
-	id = shutters;
+	id = "shutters";
 	name = "privacy shutters"
 	},
 /obj/machinery/door/firedoor,
@@ -149,7 +149,7 @@
 /area/bridge)
 "bjg" = (
 /obj/machinery/button{
-	id = shutters;
+	id = "shutters";
 	name = "privacy shutters button";
 	pixel_x = -8;
 	pixel_y = -25
